@@ -18,16 +18,41 @@ A complete, from-scratch implementation of a 32-bit RISC-V processor supporting 
 - **Implementation**: Professional VHDL with complete documentation
 
 ## 📁 Repository Structure
-- `/src/` - VHDL source code for all processor components
-- `/testbench/` - Comprehensive verification framework
-- `/tests/` - Test vectors and golden files for all instruction categories
-- `/docs/` - Complete project documentation and analysis
-- `/simulation/` - ModelSim simulation scripts and waveforms
+
+**VHDL Source Files:**
+- `alu.vhd` - Arithmetic Logic Unit implementation
+- `branch_cmp.vhd` - Branch comparison logic
+- `control_unit.vhd` - Main control unit with FSM
+- `cpu_top.vhd` - Top-level CPU integration
+- `cpu_top_tb.vhd` - Testbench for simulation
+- `decoder.vhd` - Instruction decoder
+- `pc_unit.vhd` - Program counter management
+- `ram.vhd` - Memory subsystem
+- `register_file.vhd` - Register file implementation
+
+**Test Programs:**
+- `arithmetic.mem` - Arithmetic test program
+- `branch.mem` - Branch test program
+- `jump.mem` - Jump test program
+- `logic.mem` - Logic operations test program
+- `memory.mem` - Memory access test program
+- `shift.mem` - Shift operations test program
+
+**Verification Files:**
+- `arithmetic_golden.txt` - Expected results for arithmetic tests
+- `branch_golden.txt` - Expected results for branch tests
+- `jump_golden.txt` - Expected results for jump tests
+- `logic_golden.txt` - Expected results for logic tests
+- `memory_golden.txt` - Expected results for memory tests
+- `shift_golden.txt` - Expected results for shift tests
+
+**Documentation:**
+- `CPU Explanation.pdf` - Complete project documentation
 
 ## 🚀 Getting Started
 1. Clone the repository
 2. Load project in ModelSim or compatible VHDL simulator
-3. Run test suites to verify functionality
+3. Run test suites to verify functionality (change the tests in `cpu_top_tb`)
 4. Review documentation for detailed implementation analysis
 
 ## 📊 Test Coverage
@@ -39,7 +64,7 @@ A complete, from-scratch implementation of a 32-bit RISC-V processor supporting 
 - Shift Operations: ✅ 100% Pass
 
 ## 📖 Documentation
-Complete project documentation available in `/docs/` including:
+Complete project documentation available in `CPU Explanation.pdf` including:
 - Architecture overview and design rationale
 - Component-level implementation details  
 - Comprehensive verification methodology
