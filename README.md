@@ -83,6 +83,3 @@ This project demonstrates professional-level CPU design capabilities and systema
 - CPU architecture roles
 - FPGA development opportunities
 - Graduate-level computer architecture studies
-
----
-**Independent Engineering Project | Complete RISC-V Implementation | Professional Documentation**
