@@ -1,0 +1,386 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/risc_cpu
+Ealu
+Z1 w1761121757
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/risc_cpu/alu.vhd
+Z6 FC:/risc_cpu/alu.vhd
+l0
+L5
+Vz`QGd<m]4hDB>Jn:Rd5AG2
+!s100 <g;8G5kj=5Pdk581b1?[P1
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1761306707
+!i10b 1
+Z9 !s108 1761306707.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/risc_cpu/alu.vhd|
+Z11 !s107 C:/risc_cpu/alu.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 NoCoverage 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 z`QGd<m]4hDB>Jn:Rd5AG2
+l30
+L19
+V0ZL>=52TH=_RHQ97Q:40L2
+!s100 C^B?4iFX3?:`93cOGNhL63
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ebranch_cmp
+Z14 w1755548535
+R2
+R3
+R4
+R0
+Z15 8C:/risc_cpu/branch_cmp.vhd
+Z16 FC:/risc_cpu/branch_cmp.vhd
+l0
+L5
+VIm4KUlC:k]BL?mz1jSG@e1
+!s100 DFV3D4LRH_4zBkS]o^FFN3
+R7
+33
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|C:/risc_cpu/branch_cmp.vhd|
+Z18 !s107 C:/risc_cpu/branch_cmp.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 10 branch_cmp 0 22 Im4KUlC:k]BL?mz1jSG@e1
+l21
+L17
+VA@]ijaSQ=OTm:1eO@?Gn83
+!s100 CLaeehKn7:87hZ=<::T9^0
+R7
+33
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Econtrol_unit
+Z19 w1756400351
+R2
+R3
+R4
+R0
+Z20 8C:/risc_cpu/control_unit.vhd
+Z21 FC:/risc_cpu/control_unit.vhd
+l0
+L5
+Vl[kaGojF[G]fRKQAAD5R93
+!s100 UaJ4XCAI4_21:33nSVkbV0
+R7
+33
+Z22 !s110 1761306708
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|C:/risc_cpu/control_unit.vhd|
+Z24 !s107 C:/risc_cpu/control_unit.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 12 control_unit 0 22 l[kaGojF[G]fRKQAAD5R93
+l68
+L49
+V2j<SL>6:YjgnUHOLY3h[c1
+!s100 D6k[A[<aj]V?cCIKi3I1N3
+R7
+33
+R22
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Ecpu_top
+Z25 w1761125204
+R2
+R3
+R4
+R0
+Z26 8C:/risc_cpu/cpu_top.vhd
+Z27 FC:/risc_cpu/cpu_top.vhd
+l0
+L5
+VVO<Y<]z^9V1:NRO44_1hA0
+!s100 Bja<kCkjA43a@HRN=<K=g3
+R7
+33
+R22
+!i10b 1
+Z28 !s108 1761306708.000000
+Z29 !s90 -reportprogress|300|-work|work|C:/risc_cpu/cpu_top.vhd|
+Z30 !s107 C:/risc_cpu/cpu_top.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z31 DEx4 work 7 cpu_top 0 22 VO<Y<]z^9V1:NRO44_1hA0
+l193
+L24
+VH[1I9YmCQbXOT8L_HgiW>0
+!s100 97FMl^lKU9edlDB@D@C[R3
+R7
+33
+R22
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+Ecpu_top_tb
+Z32 w1761304034
+Z33 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z34 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R2
+R3
+R4
+R0
+Z35 8C:/risc_cpu/cpu_top_tb.vhd
+Z36 FC:/risc_cpu/cpu_top_tb.vhd
+l0
+L8
+VjoLD@hl4DJB;4MnKhDW^72
+!s100 zTYXb<LU5HBfPFBbSgM9]0
+R7
+33
+R22
+!i10b 1
+R28
+Z37 !s90 -reportprogress|300|-work|work|C:/risc_cpu/cpu_top_tb.vhd|
+Z38 !s107 C:/risc_cpu/cpu_top_tb.vhd|
+!i113 1
+R12
+R13
+Asim
+R31
+R33
+R34
+R2
+R3
+R4
+DEx4 work 10 cpu_top_tb 0 22 joLD@hl4DJB;4MnKhDW^72
+l40
+L11
+VY9C=4i=h27=ocH=I0<]fm0
+!s100 CAod7f34l`RhR^6mnK6<Y0
+R7
+33
+R22
+!i10b 1
+R28
+R37
+R38
+!i113 1
+R12
+R13
+Edecoder
+Z39 w1757018328
+R2
+R3
+R4
+R0
+Z40 8C:/risc_cpu/decoder.vhd
+Z41 FC:/risc_cpu/decoder.vhd
+l0
+L5
+VnVW`chdjNm8CSW3APhWI<3
+!s100 XSER9f=kPLNO6d3mWZG3T1
+R7
+33
+R22
+!i10b 1
+R28
+Z42 !s90 -reportprogress|300|-work|work|C:/risc_cpu/decoder.vhd|
+Z43 !s107 C:/risc_cpu/decoder.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 7 decoder 0 22 nVW`chdjNm8CSW3APhWI<3
+l37
+L36
+V?D_eQJhzTF_Eo3c?DS34>2
+!s100 z[L:`>YdD?R5g82V9inZ>1
+R7
+33
+R22
+!i10b 1
+R28
+R42
+R43
+!i113 1
+R12
+R13
+Epc_unit
+Z44 w1756399944
+R2
+R3
+R4
+R0
+Z45 8C:/risc_cpu/pc_unit.vhd
+Z46 FC:/risc_cpu/pc_unit.vhd
+l0
+L5
+VHQ6@fjCz6;R<JS5JF4;HZ0
+!s100 d21`EaMG54;AX1DBSVa>d1
+R7
+33
+R22
+!i10b 1
+R28
+Z47 !s90 -reportprogress|300|-work|work|C:/risc_cpu/pc_unit.vhd|
+Z48 !s107 C:/risc_cpu/pc_unit.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 7 pc_unit 0 22 HQ6@fjCz6;R<JS5JF4;HZ0
+l27
+L24
+VNDYn0i]ajIh]4KDOkzBgE3
+!s100 oN1>Bb4I:T6TT^_BmaXAz0
+R7
+33
+R22
+!i10b 1
+R28
+R47
+R48
+!i113 1
+R12
+R13
+Eram
+Z49 w1753377404
+R34
+R2
+R3
+R4
+R0
+Z50 8C:/risc_cpu/ram.vhd
+Z51 FC:/risc_cpu/ram.vhd
+l0
+L7
+VXoQ1=^>Md1eZGYJXCZCMl1
+!s100 5b4<O1m=XaO??]6UhYanf3
+R7
+33
+R22
+!i10b 1
+R28
+Z52 !s90 -reportprogress|300|-work|work|C:/risc_cpu/ram.vhd|
+Z53 !s107 C:/risc_cpu/ram.vhd|
+!i113 1
+R12
+R13
+Artl
+R34
+R2
+R3
+R4
+DEx4 work 3 ram 0 22 XoQ1=^>Md1eZGYJXCZCMl1
+l60
+L25
+V:8lbKKbRo^G@U]gDZh6mM3
+!s100 :NS0<;@I1I@Po4f0X<B5L3
+R7
+33
+R22
+!i10b 1
+R28
+R52
+R53
+!i113 1
+R12
+R13
+Eregister_file
+Z54 w1753378633
+R2
+R3
+R4
+R0
+Z55 8C:/risc_cpu/register_file.vhd
+Z56 FC:/risc_cpu/register_file.vhd
+l0
+L5
+V?bU_6<I[8dKO^=Ba_lY5]3
+!s100 N:Y?mWgIBh9MZigBeCnY:3
+R7
+33
+R22
+!i10b 1
+R28
+Z57 !s90 -reportprogress|300|-work|work|C:/risc_cpu/register_file.vhd|
+Z58 !s107 C:/risc_cpu/register_file.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z59 DEx4 work 13 register_file 0 22 ?bU_6<I[8dKO^=Ba_lY5]3
+l32
+L28
+Z60 VaA1K6H]lMG^VDhKE5djf@0
+Z61 !s100 0UAdC>PT9A0kYB^?k>a3`3
+R7
+33
+R22
+!i10b 1
+R28
+R57
+R58
+!i113 1
+R12
+R13
